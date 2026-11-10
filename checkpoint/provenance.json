@@ -1,0 +1,22 @@
+{
+  "harq": {
+    "source": "results/JS3C_HARQ_AWGN_LPIPS/best_model_Ora.pth",
+    "sha256": "b9663e2ceca3a78a782ce5564d3e7fb5973e28b185dea2f1863fe180062d3375",
+    "tensor_count": 795,
+    "strict_loading": true
+  },
+  "swin": {
+    "source": "results/SwinJSCC/Train_model_JSCC.pth",
+    "sha256": "edd21319d655f237355e2f22ede2fc17b39f535d659d39a41a10ed542fadb6dd",
+    "tensor_count": 365,
+    "strict_loading": true
+  },
+  "ppo": {
+    "source": "ppo_results/ppo_final.pth",
+    "sha256": "14bcb737d161c13efbd69ba43b9d4b36d457e9f6633a37b4027a408723a97025",
+    "tensor_count": 24,
+    "strict_loading": true
+  },
+  "bundle_sha256": "528b757482c5707ed6d4a253e4abd1814a6f5d3a4ff226ae50efe7098044c3e3",
+  "policy_training_provenance": "PPO checkpoint has no training config or parent JSCC hash. Pairing is selected from local standard AWGN filenames, not verified against training provenance."
+}

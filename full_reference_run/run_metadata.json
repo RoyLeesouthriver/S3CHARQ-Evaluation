@@ -1,0 +1,37 @@
+{
+  "config": {
+    "checkpoint": "checkpoint/s3charq_cifar10.pth",
+    "data_root": "<local CIFAR10 cache>",
+    "output_dir": "full_reference_run",
+    "device": "cuda:0",
+    "batch_size": 64,
+    "num_workers": 0,
+    "max_samples": 0,
+    "seed": 0,
+    "snrs": [
+      1,
+      4,
+      7,
+      10,
+      13
+    ],
+    "ratio": 0.125,
+    "target_lpips": 0.064,
+    "rule_threshold": 0.064,
+    "state_threshold": 0.064,
+    "policy_action": "sample",
+    "lpips_normalize": false,
+    "download": false
+  },
+  "actual_samples_per_snr": 10000,
+  "checkpoint_sha256": "528b757482c5707ed6d4a253e4abd1814a6f5d3a4ff226ae50efe7098044c3e3",
+  "python": "3.11.0",
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "numpy": "2.4.4",
+  "device_name": "NVIDIA GeForce RTX 2070 SUPER",
+  "channel": "AWGN",
+  "precision": "FP32; AMP/TF32 disabled",
+  "note": "Small subsets are smoke tests, not paper-reproduction evidence.",
+  "paths_sanitized_for_distribution": true
+}

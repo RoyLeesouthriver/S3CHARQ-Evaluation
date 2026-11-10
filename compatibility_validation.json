@@ -1,0 +1,15 @@
+{
+  "target": "Python 3.8 / corrected author-reported PyTorch 1.12.1; guarded load interface for older torch",
+  "local_validation_environment": "Python 3.11 / PyTorch 2.5.1, JS3C conda environment",
+  "python38_syntax_files_passed": 18,
+  "unit_tests_passed": 8,
+  "legacy_loader_tests": "Simulated old torch.load signature, missing keyword, trust checks and modern error propagation",
+  "remote_original_environment_executed": false,
+  "checkpoint_changed": false,
+  "reference_metrics_changed": false,
+  "full_evaluation_rerun": false,
+  "target_lpips": 0.064,
+  "rule_threshold": 0.064,
+  "state_threshold": 0.064
+}
+

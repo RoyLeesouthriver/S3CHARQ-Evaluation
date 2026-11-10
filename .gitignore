@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+data/
+results/
+my_*run/
+
+# Large artifacts are distributed separately as release assets.
+checkpoint/*.pth
+*.zip
+full_reference_run/raw_samples.csv
+reference_run/raw_samples.csv
+

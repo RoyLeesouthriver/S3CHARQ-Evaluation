@@ -1,0 +1,19 @@
+{
+  "revision_date": "2026-11-10",
+  "inference_rerun": false,
+  "changes": [
+    "All distributed threshold settings are 0.064",
+    "Removed aggregate retransmission-rate reporting only",
+    "Retained per-image decisions for reproducibility"
+  ],
+  "reference_source": "Original reference_run and full_reference_run at threshold 0.064",
+  "training_environment_author_provided": {
+    "gpu": "NVIDIA RTX4090",
+    "os": "Ubuntu 20.04 LTS",
+    "cpu": "Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz",
+    "pytorch": "1.12.1"
+  },
+  "evaluation_environment": "Unchanged; see the original run_metadata.json files",
+  "historical_unit_tests": "Recorded in validation_summary.json; not rerun for this revision"
+}
+

@@ -1,0 +1,12 @@
+{
+  "environment": "JS3C conda environment, Python 3.11.0, torch 2.5.1+cu121",
+  "strict_checkpoint_load": {"harq": true, "swin": true, "ppo": true},
+  "original_extracted_forward_max_absolute_error": 0.0,
+  "unit_tests_passed": 3,
+  "syntax_files_checked": 16,
+  "gpu_smoke": {"images_per_snr": 1000, "snrs": [1, 4, 7, 10, 13], "exit_code": 0},
+  "gpu_full": {"images_per_snr": 10000, "snrs": [1, 4, 7, 10, 13], "seed": 0, "exit_code": 0},
+  "cpu_smoke": {"images": 1, "batch_size": 1, "snrs": [1], "exit_code": 0},
+  "historical_ppo_jscc_training_pairing_verified": false
+}
+

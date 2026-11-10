@@ -1,0 +1,19 @@
+{
+  "checkpoint": "checkpoint/s3charq_cifar10.pth",
+  "data_root": "data",
+  "output_dir": "results",
+  "device": "auto",
+  "batch_size": 64,
+  "num_workers": 0,
+  "max_samples": 0,
+  "seed": 0,
+  "snrs": [1, 4, 7, 10, 13],
+  "ratio": 0.125,
+  "target_lpips": 0.064,
+  "rule_threshold": 0.064,
+  "state_threshold": 0.064,
+  "policy_action": "sample",
+  "lpips_normalize": false,
+  "download": false
+}
+

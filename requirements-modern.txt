@@ -1,0 +1,8 @@
+# Exact top-level versions used for the original local reference run, Python 3.11.
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.4.4
+Pillow==12.2.0
+lpips==0.1.4
+tqdm==4.68.3
+

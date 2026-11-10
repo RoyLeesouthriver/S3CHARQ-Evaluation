@@ -1,0 +1,30 @@
+{
+  "device": "cuda:0",
+  "comparisons": {
+    "harq": {
+      "max_abs_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bitwise_equal": true
+    },
+    "swin": {
+      "max_abs_errors": [
+        0.0
+      ],
+      "bitwise_equal": true
+    },
+    "ppo": {
+      "max_abs_errors": [
+        0.0,
+        0.0
+      ],
+      "bitwise_equal": true
+    }
+  }
+}
