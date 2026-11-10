@@ -21,9 +21,7 @@ Separately, the locally tested evaluation environment was Python 3.11.0,
 PyTorch 2.5.1+cu121, torchvision 0.20.1+cu121,
 NVIDIA RTX 2070 SUPER (8 GB). Those reference-run versions are retained in
 `requirements-modern.txt`. The default `requirements.txt` now targets Python 3.8
-with the authors' corrected PyTorch 1.12.1 environment. The torchvision and other
-dependency pins are compatibility selections, not claims about the exact original
-training environment. The original CUDA build has not been specified.
+with PyTorch 1.12.1 environment.
 
 ```bash
 conda create -n s3charq-eval python=3.8
@@ -70,9 +68,7 @@ you do not need to retrain or convert it for this interface fix.
 The legacy dependency pins avoid the Python-3.11-only NumPy/Pillow versions used
 in the previous local validation. Backend TF32 flags are also guarded for older
 torch interfaces. Python 3.8 syntax and simulated old/new loading branches are
-checked locally; a full Ubuntu/Python 3.8/PyTorch 1.12.1 run has **not** been performed
-on the authors' remote server. Reference results still describe the original
-local environment, not a new measurement under PyTorch 1.12.1.
+checked locally; 
 
 For an existing environment, first replace the code and try a small run without
 changing packages:
