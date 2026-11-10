@@ -1,9 +1,11 @@
 # S3CHARQ Evaluation
 
-> **Download status:** Source code and summary results are published here. The
-> pretrained checkpoint and per-image CSV files are not yet uploaded to GitHub.
-> Evaluation requires `checkpoint/s3charq_cifar10.pth`; cloning this repository
-> alone is insufficient. See [release asset instructions](RELEASE_ASSETS.md).
+> **Full package available:** [Download v1.0.0 (ZIP, approximately 949 MB)](https://github.com/RoyLeesouthriver/S3CHARQ-Evaluation/releases/download/v1.0.0/S3CHARQ-Evaluation-Release.zip).
+> The package includes pretrained weights and per-image results. See the
+> [release page](https://github.com/RoyLeesouthriver/S3CHARQ-Evaluation/releases/tag/v1.0.0)
+> and [download / checksum instructions](RELEASE_ASSETS.md).
+> If you cloned this repository, copy `checkpoint/s3charq_cifar10.pth` from the
+> extracted package into the repository's `checkpoint/` directory before evaluation.
 
 
 Standalone **CIFAR10 / 32×32 / AWGN / one retransmission** evaluation extracted
